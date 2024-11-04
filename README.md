@@ -4,9 +4,9 @@ This application enables the user to interact with the individual cells in the r
 
 Interaction Overview
 
-When a user hovers over an item in the vertical list on the left side, the corresponding grid cell on the right side becomes highlighted, providing a visual indication of the interaction.
+When a user hovers over an item in the vertical list on the left side, the corresponding grid cell on the right side is highlighted, providing a visual indication of the interaction.
 
-when an item in the vertical list is clicked, the associated grid cell toggles its visibility. This functionality allows users to dynamically show or hide specific cells, enhancing interactivity and user engagement.
+When an item in the vertical list is clicked, the associated grid cell toggles its visibility. This functionality allows users to dynamically show or hide specific cells, enhancing interactivity and user engagement.
 
 Interaction Logic
 
@@ -20,9 +20,9 @@ Mouse Events:
 
 State Management:
 
-Redux Integration:
+Redux Toll Kit Integration:
 
-- Each cell’s visibility state (e.g., visible or hidden) is managed using Redux. The cellVisibilitySlice handles actions to toggle the  visibility state of cells when they are clicked.
+- Each cell’s visibility state (e.g., visible or hidden) is managed using RTK. The cellVisibilitySlice handles actions to toggle the  visibility state of cells when they are clicked.
 - The toggleCell action creator is dispatched in response to the onClick event, updating the Redux store and triggering a re-render of affected components.
 
 The component re-renders based on updated states, applying relevant styles conditionally.
