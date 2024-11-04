@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+   
+    
+    "module": "es2020",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+   
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@testing-library/jest-dom", "jest","node"],
+    //"types": ["jest", "node"], // Include jest and node types
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "jest.config.ts"
+  ],
+  "exclude": ["node_modules"]
+}

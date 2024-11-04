@@ -1,0 +1,19 @@
+
+/*To display the Listview*/
+.ListView,
+ul {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 10px 10px 20px;
+    text-align: left;
+}
+li:hover{
+    font-weight: bold;
+}
+li span{
+    margin-left: 8px;
+}

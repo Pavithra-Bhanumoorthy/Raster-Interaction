@@ -1,0 +1,33 @@
+/* .container{
+    position: relative;
+}
+.bgImage{
+    background: url('../../public/images/sample.webp') center no-repeat;
+    background-size: cover;  
+    height: 500px;
+    width:500px; 
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 0;
+} */
+
+.bgImage{
+    position: relative;
+    width:500px; 
+    height: 500px;
+    border-right:1px solid #000 ;
+    border-bottom: 1px solid #000;
+}
+.bgImage::before{
+    content: "";
+    background: url('../../public/images/sample.webp') center no-repeat;
+    background-size: cover;  
+    position: absolute;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
