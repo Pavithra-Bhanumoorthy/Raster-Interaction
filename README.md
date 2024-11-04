@@ -36,9 +36,6 @@ Clone the project
 
 https://github.com/Pavithra-Bhanumoorthy/Raster-Interaction.git
 
-Go to the project directory
-
-cd Raster-grid
 
 Install dependencies
 
